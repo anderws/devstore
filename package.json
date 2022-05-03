@@ -1,0 +1,29 @@
+{
+  "name": "devstore",
+  "version": "1.0.0",
+  "description": "DevStore App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anderws/devstore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anderws/devstore/issues"
+  },
+  "homepage": "https://github.com/anderws/devstore#readme",
+  "dependencies": {
+    "@types/jest": "^27.5.0",
+    "jest": "^28.0.3",
+    "pg-promise": "^10.11.1",
+    "sinon": "^13.0.2",
+    "ts-jest": "^28.0.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
