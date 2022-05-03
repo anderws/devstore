@@ -14,3 +14,5 @@ npx tsc --init
 
 yarn.cmd add ts-node ts-jest
 npx ts-jest config:init
+# to test
+npx jest
