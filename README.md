@@ -17,3 +17,7 @@ npx ts-jest config:init
 # to test
 npx jest
 yarn.cmd add @types/sinon
+yarn.cmd add axios
+yarn.cmd add express @types/express
+
+npx ts-node src/main.ts

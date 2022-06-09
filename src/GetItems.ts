@@ -12,7 +12,7 @@ export default class GetItems{
             output.push({
                 idItem: item.idItem,
                 description: item.description,
-                price: item.idItem
+                price: item.price
             });
         }
         return output;
