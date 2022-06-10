@@ -1,7 +1,7 @@
-import ItemRepositoryMemory from "./ItemRepositoryMemory";
+import ItemRepository from "./ItemRepository";
 
 export default class GetItems{
-    constructor(readonly itemRepository: ItemRepositoryMemory){
+    constructor(readonly itemRepository: ItemRepository){
 
     }
 
