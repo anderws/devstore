@@ -21,3 +21,4 @@ yarn.cmd add axios
 yarn.cmd add express @types/express
 
 npx ts-node src/main.ts
+yarn.cmd add pg-promise
