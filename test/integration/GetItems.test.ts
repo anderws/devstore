@@ -1,8 +1,8 @@
 import { getAutomaticTypeDirectiveNames } from "typescript";
-import Dimension from "../src/Dimension";
-import GetItems from "../src/GetItems";
-import Item from "../src/Item";
-import ItemRepositoryMemory from "../src/ItemRepositoryMemory";
+import Dimension from "../../src/domain/entity/Dimension";
+import GetItems from "../../src/application/GetItems";
+import Item from "../../src/domain/entity/Item";
+import ItemRepositoryMemory from "../../src/infra/repository/memory/ItemRepositoryMemory";
 
 test("Deve buscar os items", async function(){
     const itemRepository = new ItemRepositoryMemory();

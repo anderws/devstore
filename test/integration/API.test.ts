@@ -1,6 +1,6 @@
 import axios from "axios";
 
-test("Deve chamar /items", async function(){
+test.skip("Deve chamar /items", async function(){
     const response = await axios({
         url: "http://localhost:3000/items",
         method: "get"
